@@ -4,9 +4,9 @@
 16GB x 4 VRAM (trained on NVIDIA RTX A4000 x 4).
 
 ## Environment
-Use Kaggle Docker.  
-Follow tattaka/ml_environment to build the environment.  
-You can run ./RUN-KAGGLE-GPU-ENV.sh and launch the docker container.  
+Use [Kaggle Docker](https://console.cloud.google.com/gcr/images/kaggle-gpu-images/GLOBAL/python).  
+Follow [tattaka/ml_environment](https://github.com/tattaka/ml_environment) to build the environment.  
+You can run `./RUN-KAGGLE-GPU-ENV.sh` and launch the docker container.
 
 ## Usage
 0. Place [competition data](https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data) in the `input` directory
